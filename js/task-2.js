@@ -1,6 +1,6 @@
 function makeArray(firstArray, secondArray, maxLength) {
     const messageArray = firstArray.concat(secondArray);
-    if (messageArray.lenght > maxLength) {
+    if (messageArray.length > maxLength) {
         return messageArray.slice(0, maxLength);
     }
     return messageArray;
